@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-vector/hexagonal-black-background-modern-design_1017-37442.jpg?w=1060&t=st=1686872147~exp=1686872747~hmac=d55ac1d21d83f7fba629e4a3d6d6467bb7b6f7a09e9461185be285594a4580b2");
+
+}
+
+#level-title {
+  font-family: garamond,cursive;
+  font-size: 6rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #2C3333;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-image:none;
+  background-color: red;
+  opacity: 0.8;
+}
+
+.image{
+  border-radius: 18%;
+}
+/* .red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+} */
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
